@@ -1,7 +1,5 @@
 package internal
 
-import "github.com/sarchlab/akita/v3/mem/vm"
-
 // DeviceType marks the type of a device.
 type DeviceType int
 
@@ -40,7 +38,6 @@ type Device struct {
 	nextActualGPUIndex int
 	MemState           DeviceMemoryState
 	Properties         DeviceProperties
-	PageTable          vm.PageTable
 }
 
 // SetTotalMemSize sets total memory size

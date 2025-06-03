@@ -34,13 +34,6 @@ type Runner struct {
 	cacheLatencyTracers     []cacheLatencyTracer
 	cacheHitRateTracers     []cacheHitRateTracer
 	tlbHitRateTracers       []tlbHitRateTracer
- /*add gmmucachetracer*/
- 	gmmuCacheHitRateTracers  []gmmuCacheHitRateTracer //old line
-	gmmuCacheLatencyTracers []gmmuCacheLatencyTracer
-	gmmuTransactionCounters []gmmuTransactionCountTracer
-	gmmuLatencyTracers      []gmmuLatencyTracer
-
-
 	rdmaTransactionCounters []rdmaTransactionCountTracer
 	dramTracers             []dramTransactionCountTracer
 	benchmarks              []benchmarks.Benchmark
@@ -56,14 +49,6 @@ type Runner struct {
 	ReportCacheLatency         bool
 	ReportCacheHitRate         bool
 	ReportTLBHitRate           bool
-	
-	//Added Gmmucache hiy rate report flag
-	ReportGMMUCacheHitRate     bool //old line
-	ReportGMMULatency          bool
-	ReportGMMUTransactionCount bool
-	ReportGMMUCacheLatency     bool
-
-
 	ReportRDMATransactionCount bool
 	ReportDRAMTransactionCount bool
 	UseUnifiedMemory           bool
@@ -71,8 +56,6 @@ type Runner struct {
 	ReportCPIStack             bool
 
 	GPUIDs []int
-	
-
 }
 
 // Init initializes the platform simulate

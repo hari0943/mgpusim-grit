@@ -164,10 +164,6 @@ func (b R9NanoPlatformBuilder) Build() *Platform {
 
 	pcieConnector.EstablishRoute()
 
-	for _, gpu := range b.gpus {
-		gpu.MMUEngine = mmuComponent
-	}
-
 	return &Platform{
 		Engine: b.engine,
 		Driver: gpuDriver,
@@ -189,7 +185,6 @@ func (b R9NanoPlatformBuilder) buildGPUDriver(
 		WithGlobalStorage(b.globalStorage).
 		WithD2HCycles(8500).
 		WithH2DCycles(14500).
-		WithCPUMemorySize(4 * mem.GB).
 		Build("Driver")
 	if b.visTracer != nil {
 		tracing.CollectTrace(gpuDriver, b.visTracer)
@@ -430,8 +425,8 @@ func (b *R9NanoPlatformBuilder) createGPU(
 		driver.DeviceProperties{
 			CUCount:  b.numCUPerSA * b.numSAPerGPU,
 			DRAMSize: 4 * mem.GB,
-		})
-
+		},
+	)
 	gpu.CommandProcessor.Driver = gpuDriver.GetPortByName("GPU")
 
 	b.configRDMAEngine(gpu, rdmaAddressTable)

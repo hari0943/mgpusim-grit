@@ -19,11 +19,6 @@ var cacheHitRateReportFlag = flag.Bool("report-cache-hit-rate", false,
 	"Report the cache hit rate of each cache.")
 var tlbHitRateReportFlag = flag.Bool("report-tlb-hit-rate", false,
 	"Report the TLB hit rate of each TLB.")
-
-//var gmmuCacheHitRateReportFlag = flag.Bool("report-gmmu-cache-hit", false, 
-//	"Report the GMMUCache hit rate for each GPU.")
-
-
 var rdmaTransactionCountReportFlag = flag.Bool("report-rdma-transaction-count",
 	false, "Report the number of transactions going through the RDMA engines.")
 var dramTransactionCountReportFlag = flag.Bool("report-dram-transaction-count",
@@ -112,10 +107,6 @@ func (r *Runner) ParseFlag() *Runner {
 		r.ReportTLBHitRate = true
 	}
 
-	/*if *gmmuCacheHitRateReportFlag{
-		r.ReportGMMUCacheHitRate = true
-	}*/
-
 	if *dramTransactionCountReportFlag {
 		r.ReportDRAMTransactionCount = true
 	}
@@ -137,11 +128,6 @@ func (r *Runner) ParseFlag() *Runner {
 		r.ReportCacheLatency = true
 		r.ReportCacheHitRate = true
 		r.ReportTLBHitRate = true
-		//r.ReportGMMUCacheHitRate = true
-
-		r.ReportGMMUCacheHitRate = true
-		r.ReportGMMUCacheLatency = true
-
 		r.ReportSIMDBusyTime = true
 		r.ReportDRAMTransactionCount = true
 		r.ReportRDMATransactionCount = true

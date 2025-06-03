@@ -4,7 +4,6 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/sarchlab/akita/v3/mem/vm/gmmu"
 	"github.com/sarchlab/akita/v3/sim"
 	"github.com/sarchlab/akita/v3/tracing"
 	"github.com/sarchlab/mgpusim/v3/timing/cu"
@@ -30,27 +29,6 @@ type cacheHitRateTracer struct {
 type tlbHitRateTracer struct {
 	tracer *tracing.StepCountTracer
 	tlb    TraceableComponent
-}
-
-/*write trace struct for gmmucache*/
-type gmmuCacheHitRateTracer struct { //oldstruct
-	tracer    *tracing.StepCountTracer
-	gmmucache TraceableComponent
-}
-
-type gmmuLatencyTracer struct {
-	tracer *tracing.AverageTimeTracer
-	gmmu   TraceableComponent
-}
-
-type gmmuCacheLatencyTracer struct {
-	tracer    *tracing.AverageTimeTracer
-	gmmucache TraceableComponent
-}
-type gmmuTransactionCountTracer struct {
-	outgoingTracer *tracing.AverageTimeTracer
-	incomingTracer *tracing.AverageTimeTracer
-	gmmuEngine     *gmmu.Comp
 }
 
 type dramTransactionCountTracer struct {
@@ -83,12 +61,6 @@ func (r *Runner) defineMetrics() {
 	r.addCacheLatencyTracer()
 	r.addCacheHitRateTracer()
 	r.addTLBHitRateTracer()
-	/*add gmmucache tracer*/
-	r.addGMMUCacheHitRateTracer() //old line
-	r.addGMMUCacheLatencyTracer()
-	r.addGMMUEngineTracer()
-	r.addGMMULatencyTracer()
-
 	r.addRDMAEngineTracer()
 	r.addDRAMTracer()
 	r.addSIMDBusyTimeTracer()
@@ -295,107 +267,6 @@ func (r *Runner) addTLBHitRateTracer() {
 	}
 }
 
-/*Add gmmucachehit rate tracer func. refer func add TLBHitRateTracer*/
-func (r *Runner) addGMMUCacheHitRateTracer() { //old line
-	if !r.ReportGMMUCacheHitRate {
-		return
-	}
-
-	for _, gpu := range r.platform.GPUs {
-		for _, gmmucache := range gpu.GMMUCache {
-			tracer := tracing.NewStepCountTracer(
-				func(task tracing.Task) bool { return true })
-			r.gmmuCacheHitRateTracers = append(r.gmmuCacheHitRateTracers,
-				gmmuCacheHitRateTracer{tracer: tracer, gmmucache: gmmucache})
-			tracing.CollectTrace(gmmucache, tracer)
-		}
-	}
-}
-
-func (r *Runner) addGMMUCacheLatencyTracer() {
-	if !r.ReportGMMUCacheLatency {
-		return
-	}
-
-	for _, gpu := range r.platform.GPUs {
-		for _, gmmucache := range gpu.GMMUCache {
-			tracer := tracing.NewAverageTimeTracer(
-				r.platform.Engine,
-				func(task tracing.Task) bool {
-					return task.Kind == "req_in"
-				})
-			r.gmmuCacheLatencyTracers = append(r.gmmuCacheLatencyTracers,
-				gmmuCacheLatencyTracer{tracer: tracer, gmmucache: gmmucache})
-			tracing.CollectTrace(gmmucache, tracer)
-		}
-	}
-}
-
-func (r *Runner) addGMMULatencyTracer() {
-	if !r.ReportGMMULatency {
-		return
-	}
-
-	for _, gpu := range r.platform.GPUs {
-		gmmu := gpu.GMMUEngine
-		tracer := tracing.NewAverageTimeTracer(
-			r.platform.Engine,
-			func(task tracing.Task) bool {
-				return task.Kind == "req_in"
-			})
-		r.gmmuLatencyTracers = append(r.gmmuLatencyTracers,
-			gmmuLatencyTracer{tracer: tracer, gmmu: gmmu})
-		tracing.CollectTrace(gmmu, tracer)
-
-	}
-}
-func (r *Runner) addGMMUEngineTracer() {
-	if !r.ReportGMMUTransactionCount {
-		return
-	}
-
-	for _, gpu := range r.platform.GPUs {
-		t := gmmuTransactionCountTracer{}
-		// t := mmuTransactionCountTracer{}
-		t.gmmuEngine = gpu.GMMUEngine
-		t.incomingTracer = tracing.NewAverageTimeTracer(
-			r.platform.Engine,
-			func(task tracing.Task) bool {
-				if task.Kind != "req_in" {
-					return false
-				}
-
-				isFromOutside := strings.Contains(
-					task.Detail.(sim.Msg).Meta().Dst.Name(), "GMMU")
-				if !isFromOutside {
-					return false
-				}
-
-				return true
-			})
-		t.outgoingTracer = tracing.NewAverageTimeTracer(
-			r.platform.Engine,
-			func(task tracing.Task) bool {
-				if task.Kind != "req_in" {
-					return false
-				}
-
-				isFromOutside := strings.Contains(
-					task.Detail.(sim.Msg).Meta().Src.Name(), "GMMU")
-				if isFromOutside {
-					return false
-				}
-
-				return true
-			})
-
-		tracing.CollectTrace(t.gmmuEngine, t.incomingTracer)
-		tracing.CollectTrace(t.gmmuEngine, t.outgoingTracer)
-
-		r.gmmuTransactionCounters = append(r.gmmuTransactionCounters, t)
-	}
-}
-
 func (r *Runner) addRDMAEngineTracer() {
 	if !r.ReportRDMATransactionCount {
 		return
@@ -494,13 +365,6 @@ func (r *Runner) reportStats() {
 	r.reportCacheLatency()
 	r.reportCacheHitRate()
 	r.reportTLBHitRate()
-	/* add report func for gmmucache*/
-	//r.reportGMMUCacheHitRate()
-	r.reportGMMUCacheHitRate()
-	r.reportGMMUCacheLatency()
-	r.reportGMMUTransactionCount()
-	r.reportGMMULatency()
-
 	r.reportRDMATransactionCount()
 	r.reportDRAMTransactionCount()
 	r.dumpMetrics()
@@ -653,71 +517,6 @@ func (r *Runner) reportTLBHitRate() {
 	}
 }
 
-/*add report func for gmmucache*/
-func (r *Runner) reportGMMUCacheHitRate() {
-	for _, tracer := range r.gmmuCacheHitRateTracers {
-		hit := tracer.tracer.GetStepCount("hit")
-		miss := tracer.tracer.GetStepCount("miss")
-		mshrHit := tracer.tracer.GetStepCount("mshr-hit")
-
-		totalTransaction := hit + miss + mshrHit
-
-		if totalTransaction == 0 {
-			continue
-		}
-
-		r.metricsCollector.Collect(
-			tracer.gmmucache.Name(), "hit", float64(hit))
-		r.metricsCollector.Collect(
-			tracer.gmmucache.Name(), "miss", float64(miss))
-		r.metricsCollector.Collect(
-			tracer.gmmucache.Name(), "mshr-hit", float64(mshrHit))
-	}
-}
-
-func (r *Runner) reportGMMUCacheLatency() {
-	for _, tracer := range r.gmmuCacheLatencyTracers {
-		if tracer.tracer.AverageTime() == 0 {
-			continue
-		}
-
-		r.metricsCollector.Collect(
-			tracer.gmmucache.Name(),
-			"req_average_latency",
-			float64(tracer.tracer.AverageTime()),
-		)
-	}
-}
-
-func (r *Runner) reportGMMUTransactionCount() {
-	for _, t := range r.gmmuTransactionCounters {
-		r.metricsCollector.Collect(
-			t.gmmuEngine.Name(),
-			"outgoing_trans_count",
-			float64(t.outgoingTracer.TotalCount()),
-		)
-		r.metricsCollector.Collect(
-			t.gmmuEngine.Name(),
-			"incoming_trans_count",
-			float64(t.incomingTracer.TotalCount()),
-		)
-	}
-}
-
-func (r *Runner) reportGMMULatency() {
-	for _, tracer := range r.gmmuLatencyTracers {
-		if tracer.tracer.AverageTime() == 0 {
-			continue
-		}
-
-		r.metricsCollector.Collect(
-			tracer.gmmu.Name(),
-			"req_average_latency",
-			float64(tracer.tracer.AverageTime()),
-		)
-	}
-}
-
 func (r *Runner) reportRDMATransactionCount() {
 	for _, t := range r.rdmaTransactionCounters {
 		r.metricsCollector.Collect(
@@ -760,7 +559,6 @@ func (r *Runner) reportDRAMTransactionCount() {
 			"read_size",
 			float64(t.tracer.readSize),
 		)
-
 		r.metricsCollector.Collect(
 			t.dram.Name(),
 			"write_size",
