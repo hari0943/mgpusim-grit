@@ -40,8 +40,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-// replace github.com/syifan/goseth => ../goseth
+//replace github.com/syifan/goseth =>../goseth
 
-// replace github.com/sarchlab/akita/v3 => ../akita
+replace github.com/sarchlab/akita/v3 => ../akita
 
-go 1.22
+go 1.22.4
