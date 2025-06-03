@@ -1,0 +1,1896 @@
+New Request Added to WalkingTranslations: PID=1, VAddr=e000, r/w =false, DeviceID=1 
+New Request Added to WalkingTranslations: PID=1, VAddr=11000, r/w =false, DeviceID=2 
+New Request Added to WalkingTranslations: PID=1, VAddr=14000, r/w =false, DeviceID=3 
+New Request Added to WalkingTranslations: PID=1, VAddr=17000, r/w =false, DeviceID=4 
+Page e000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page e000 hit on device 1. Sending response to device 1. R/w =false .  No Migration
+Page 11000 is already on the device 2. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 11000 hit on device 2. Sending response to device 2. R/w =false .  No Migration
+Page 14000 is already on the device 3. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 14000 hit on device 3. Sending response to device 3. R/w =false .  No Migration
+Page 17000 is already on the device 4. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 17000 hit on device 4. Sending response to device 4. R/w =false .  No Migration
+New Request Added to WalkingTranslations: PID=1, VAddr=f000, r/w =false, DeviceID=1 
+New Request Added to WalkingTranslations: PID=1, VAddr=12000, r/w =false, DeviceID=2 
+New Request Added to WalkingTranslations: PID=1, VAddr=15000, r/w =false, DeviceID=3 
+New Request Added to WalkingTranslations: PID=1, VAddr=18000, r/w =false, DeviceID=4 
+New Request Added to WalkingTranslations: PID=1, VAddr=10000, r/w =false, DeviceID=1 
+New Request Added to WalkingTranslations: PID=1, VAddr=13000, r/w =false, DeviceID=2 
+New Request Added to WalkingTranslations: PID=1, VAddr=16000, r/w =false, DeviceID=3 
+New Request Added to WalkingTranslations: PID=1, VAddr=19000, r/w =false, DeviceID=4 
+Page f000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page f000 hit on device 1. Sending response to device 1. R/w =false .  No Migration
+Page 12000 is already on the device 2. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 12000 hit on device 2. Sending response to device 2. R/w =false .  No Migration
+Page 15000 is already on the device 3. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 15000 hit on device 3. Sending response to device 3. R/w =false .  No Migration
+Page 18000 is already on the device 4. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 18000 hit on device 4. Sending response to device 4. R/w =false .  No Migration
+Page 10000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 10000 hit on device 1. Sending response to device 1. R/w =false .  No Migration
+Page 13000 is already on the device 2. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 13000 hit on device 2. Sending response to device 2. R/w =false .  No Migration
+Page 16000 is already on the device 3. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x16000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 16000 hit on device 3. Sending response to device 3. R/w =false .  No Migration
+Page 19000 is already on the device 4. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 9, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x19000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x16000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 19000 hit on device 4. Sending response to device 4. R/w =false .  No Migration
+New Request Added to WalkingTranslations: PID=1, VAddr=b000, r/w =false, DeviceID=2 
+New Request Added to WalkingTranslations: PID=1, VAddr=a000, r/w =false, DeviceID=1 
+New Request Added to WalkingTranslations: PID=1, VAddr=c000, r/w =false, DeviceID=3 
+New Request Added to WalkingTranslations: PID=1, VAddr=d000, r/w =false, DeviceID=4 
+New Request Added to WalkingTranslations: PID=1, VAddr=2000, r/w =false, DeviceID=1 
+New Request Added to WalkingTranslations: PID=1, VAddr=3000, r/w =false, DeviceID=2 
+New Request Added to WalkingTranslations: PID=1, VAddr=4000, r/w =false, DeviceID=3 
+New Request Added to WalkingTranslations: PID=1, VAddr=5000, r/w =false, DeviceID=4 
+Page b000 accessed by GPU 1 and Access count =1 
+Page b000 reached Migration threshold . Migrating to GPU = 2 
+Page b000 added to migration queue. page available on gpu =  1 
+Page a000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 9, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 10, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x19000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x16000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xA000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page a000 hit on device 1. Sending response to device 1. R/w =false .  No Migration
+Page c000 accessed by GPU 1 and Access count =1 
+Page c000 reached Migration threshold . Migrating to GPU = 3 
+Page c000 added to migration queue. page available on gpu =  1 
+Page d000 accessed by GPU 1 and Access count =1 
+Page d000 reached Migration threshold . Migrating to GPU = 4 
+Page d000 added to migration queue. page available on gpu =  1 
+Page 2000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 9, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 10, VPT: 0x0, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x19000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x16000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xA000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x2000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 2000 hit on device 1. Sending response to device 1. R/w =false .  No Migration
+Page 3000 accessed by GPU 1 and Access count =1 
+Page 3000 reached Migration threshold . Migrating to GPU = 2 
+Page 3000 added to migration queue. page available on gpu =  1 
+Page 4000 accessed by GPU 1 and Access count =1 
+Page 4000 reached Migration threshold . Migrating to GPU = 3 
+Page 4000 added to migration queue. page available on gpu =  1 
+Page 5000 accessed by GPU 1 and Access count =1 
+Page 5000 reached Migration threshold . Migrating to GPU = 4 
+Page 5000 added to migration queue. page available on gpu =  1 
+New Request Added to WalkingTranslations: PID=1, VAddr=1000, r/w =false, DeviceID=1 
+Page 1000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 9, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 10, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x19000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x16000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xA000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x2000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x1000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 1000 hit on device 1. Sending response to device 1. R/w =false .  No Migration
+New Request Added to WalkingTranslations: PID=1, VAddr=6000, r/w =true, DeviceID=1 
+Page 6000 is already on the device 1. No Migration
+Cache Miss: Fetching from PA-Table
+Not in PA-Table: Creating a new entry
+PA Cache Entries:
+Set: 10, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 14, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 15, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 8, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 9, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 5, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 0, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 3, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 6, VPT: 0x0, Read/Write: true, Faults: 1
+Set: 1, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 1, VPT: 0x0, Read/Write: false, Faults: 1
+Set: 4, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 7, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x1, Read/Write: false, Faults: 1
+Set: 2, VPT: 0x0, Read/Write: false, Faults: 1
+PA Table Entries:
+VPN: 0x19000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x18000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x17000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x16000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x15000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x14000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x13000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x12000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x11000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x10000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xF000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xE000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0xA000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x6000, Read/Write: true, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x2000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x1000, Read/Write: false, Faults: 1
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+VPN: 0x0, Read/Write: false, Faults: 0
+Page 6000 hit on device 1. Sending response to device 1. R/w =true .  No Migration
+New Request Added to WalkingTranslations: PID=1, VAddr=2000, r/w =false, DeviceID=2 
+Page 2000 accessed by GPU 1 and Access count =1 
+Page 2000 reached Migration threshold . Migrating to GPU = 2 
+Page 2000 added to migration queue. page available on gpu =  1 
+New Request Added to WalkingTranslations: PID=1, VAddr=7000, r/w =true, DeviceID=2 
+Page 7000 accessed by GPU 1 and Access count =1 
+Page 7000 reached Migration threshold . Migrating to GPU = 2 
+Page 7000 added to migration queue. page available on gpu =  1 
+New Request Added to WalkingTranslations: PID=1, VAddr=3000, r/w =false, DeviceID=3 
+Page 3000 accessed by GPU 2 and Access count =1 
+Page 3000 reached Migration threshold . Migrating to GPU = 3 
+Page 3000 added to migration queue. page available on gpu =  2 
+New Request Added to WalkingTranslations: PID=1, VAddr=8000, r/w =true, DeviceID=3 
+Page 8000 accessed by GPU 1 and Access count =1 
+Page 8000 reached Migration threshold . Migrating to GPU = 3 
+Page 8000 added to migration queue. page available on gpu =  1 
+New Request Added to WalkingTranslations: PID=1, VAddr=4000, r/w =false, DeviceID=4 
+Page 4000 accessed by GPU 3 and Access count =1 
+Page 4000 reached Migration threshold . Migrating to GPU = 4 
+Page 4000 added to migration queue. page available on gpu =  3 
+New Request Added to WalkingTranslations: PID=1, VAddr=9000, r/w =true, DeviceID=4 
+Page 9000 accessed by GPU 1 and Access count =1 
+Page 9000 reached Migration threshold . Migrating to GPU = 4 
+Page 9000 added to migration queue. page available on gpu =  1 

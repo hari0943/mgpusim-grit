@@ -168,7 +168,9 @@ func (b *shaderArrayBuilder) connectVectorMem(sa *shaderArray) {
 			rob.GetPortByName("Top"), 8)
 
 		atTopPort := at.GetPortByName("Top")
-		rob.BottomUnit = atTopPort
+		rob.BottomUnit = atTopPort //This establishes a logical connection between the reorder 
+		//buffer and the address translator, indicating that the reorder buffer will send data to the address translator.
+
 		b.connectWithDirectConnection(
 			rob.GetPortByName("Bottom"), atTopPort, 8)
 
@@ -316,6 +318,7 @@ func (b *shaderArrayBuilder) buildL1VAddressTranslators(sa *shaderArray) {
 		WithDeviceID(b.gpuID).
 		WithLog2PageSize(b.log2PageSize)
 
+		
 	for i := 0; i < b.numCU; i++ {
 		name := fmt.Sprintf("%s.L1VAddrTrans[%d]", b.name, i)
 		at := builder.Build(name)
@@ -403,7 +406,10 @@ func (b *shaderArrayBuilder) buildL1SAddressTranslator(sa *shaderArray) {
 	if b.visTracer != nil {
 		tracing.CollectTrace(at, b.visTracer)
 	}
+
 }
+
+
 
 func (b *shaderArrayBuilder) buildL1STLB(sa *shaderArray) {
 	builder := tlb.MakeBuilder().

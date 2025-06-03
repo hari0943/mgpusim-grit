@@ -899,15 +899,41 @@ func (b *R9NanoGPUBuilder) buildGMMUCache() {
 	}
 }
 
+/*
+	func (b *R9NanoGPUBuilder) buildGMMU() {
+		gmmu := gmmu.MakeBuilder().
+			WithEngine(b.engine).
+			WithFreq(b.freq).
+			WithDeviceID(b.gpuID).
+			WithLog2PageSize(b.log2PageSize).
+			WithMaxNumReqInFlight(8).
+			WithPageTable(b.pageTable).WithPageWalkingLatency(100).
+			WithLowModule(b.mmu.GetPortByName("Top")).
+			Build(fmt.Sprintf("%s.GMMU", b.gpuName))
+
+		b.gmmu = gmmu
+		b.gpu.GMMUEngine = b.gmmu
+
+		if b.enableVisTracing {
+			tracing.CollectTrace(b.gmmu, b.visTracer)
+		}
+
+		if b.monitor != nil {
+			b.monitor.RegisterComponent(b.gmmu)
+		}
+	}
+*/
 func (b *R9NanoGPUBuilder) buildGMMU() {
 	gmmu := gmmu.MakeBuilder().
 		WithEngine(b.engine).
 		WithFreq(b.freq).
 		WithDeviceID(b.gpuID).
 		WithLog2PageSize(b.log2PageSize).
-		WithMaxNumReqInFlight(8).
-		WithPageTable(b.pageTable).WithPageWalkingLatency(100).
+		WithMaxNumReqInFlight(4096).
+		WithPageTable(b.pageTable).
+		WithPageWalkingLatency(100).
 		WithLowModule(b.mmu.GetPortByName("Top")).
+		//WithIsPrediction(true).
 		Build(fmt.Sprintf("%s.GMMU", b.gpuName))
 
 	b.gmmu = gmmu
@@ -920,6 +946,11 @@ func (b *R9NanoGPUBuilder) buildGMMU() {
 	if b.monitor != nil {
 		b.monitor.RegisterComponent(b.gmmu)
 	}
+
+	if b.perfAnalyzer != nil {
+		b.perfAnalyzer.RegisterComponent(b.gmmu)
+	}
+
 }
 
 func (b *R9NanoGPUBuilder) connectL2TLBToGMMUCache() {
